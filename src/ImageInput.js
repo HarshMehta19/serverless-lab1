@@ -122,7 +122,7 @@ const ImageInput = () => {
             <div className="image-gallery">
               {/* {gallery.map((image, index) => ( */}
                 <div  className="image-container">
-                  <img src={gallery.imageData} alt={`Image`} />
+                  <img src={gallery.imageData} alt="demo" />
                   <button onClick={deleteImage}>Delete</button>
                 </div>
               {/* ))} */}
