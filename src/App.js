@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import ImageInput from './ImageInput';
-import ImageGallery from './ImageGallery';
 
 function App() {
-  const [imageURLs, setImageURLs] = useState([]);
+  // const [imageURLs, setImageURLs] = useState([]);
 
-  const handleImagesReceived = (urls) => {
-    setImageURLs(urls);
+  const handleImagesReceived = () => {
+    // setImageURLs(urls);
   };
 
   return (

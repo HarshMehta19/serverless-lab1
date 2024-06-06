@@ -77,6 +77,7 @@ const ImageInput = () => {
         'image': image,
       };
       const userExists = await axios.post('https://yd7httyb13.execute-api.us-east-1.amazonaws.com/New/userExits', formData);
+      console.log("userExists", userExists)
       const response = await axios.post('https://yd7httyb13.execute-api.us-east-1.amazonaws.com/New/getDetails', formData);
 
       console.log('Image uploaded successfully:', response.data.imageURL);
